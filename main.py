@@ -3,7 +3,7 @@ from threading import Thread
 import discord
 from discord.ext import commands
 import os
-from welcome import on_member_join as handle_welcome
+from cogs.welcome import on_member_join as handle_welcome
 
 # ---------------- KEEP ALIVE SERVER ---------------- #
 
